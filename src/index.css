@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-chocolate-dark: #3e2723;
+  --color-chocolate-light: #5d4037;
+  --color-chocolate-accent: #d7ccc8;
+}
+
+:root {
+  font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+  background-color: #fffaf0;
+  color: #3e2723;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
