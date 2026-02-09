@@ -55,7 +55,7 @@ function App() {
             Happy Chocolate Day! 🍫
           </h1>
           <p className="text-xl text-[#5d4037] mb-12">
-            Will you given a chocolate?
+            Will you give me a chocolate?
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-6 relative min-h-[100px] w-full">
